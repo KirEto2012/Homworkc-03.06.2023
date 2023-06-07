@@ -7,8 +7,9 @@
 Console.WriteLine("Введите длину массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] number = new int[size];
-RandonNumber(number);
+//RandonNumber(number);
 Console.Write($" массив состоит из {number.Length} чисел:");
+RandonNumber(number);
 Print(number);
 
 void RandonNumber(int[] number)
@@ -27,8 +28,7 @@ for (int x = 0; x < number.Length; x++)
 if (number[x] % 2 == 0)
 count++;
 }
-Console.WriteLine($" и чётными являются {count} из них");
-
+Console.WriteLine($" и чётными являются {count} из них.");
 
 void Print(int[] num)
 {
