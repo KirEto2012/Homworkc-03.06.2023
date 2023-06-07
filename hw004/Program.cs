@@ -27,7 +27,7 @@ for (int x = 0; x < number.Length; x++)
 if (number[x] % 2 == 0)
 count++;
 }
-Console.WriteLine($" и чётными являются {count} из них");
+Console.WriteLine($" и чётными являются {count} из них.");
 
 
 void Print(int[] num)
